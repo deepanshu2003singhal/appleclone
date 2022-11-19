@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    background-image: url(macbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    overflow: hidden;
+    top: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+    font-size: 2vh;
+}
+
+.navbar ul {
+    margin: auto;
+    /* margin-top: 1vh; */
+    /* padding-bottom: 1vh; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar ul li{
+    margin-left: 5vw;
+    transition: ease all 0.20s;
+    list-style: none;
+}
+.navbar ul li:hover{
+    transform: translateY(-0.125rem);
+    box-shadow: 0 0.5em 0.5em -0.4em white; 
+}
+
+.navbar ul li a{
+    color: rgba(255, 255, 255, 0.821);
+    text-decoration: none;
+    
+}
+.navbar ul li a:hover{
+    color: white;
+
+    transition: 0.5s;
+}
+.discount{
+    padding-top: 0.5vh;
+    background-color: purple;
+    color: white;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0.5vh;
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 0%; 
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+  }
+
+  .card{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 18rem;
+    height: auto;
+    transition:0.5s;
+
+}
+.card:hover{
+    width:19rem;
+    border-color: rgba(19, 129, 233, 0.367);
+    border-width: 0.25em;
+  
+}
+.card-img-top:hover{
+    box-shadow: 1em 0.5em 0.5em 0.4em rgba(255, 255, 255, 0.101); 
+
+}
+.products{
+    display:flex;
+    margin:auto;
+    flex-wrap: wrap;
+}
+.card img{
+    height: 40vh;
+}

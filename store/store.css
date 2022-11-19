@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  .content{
+      display: flex;
+      justify-content: left;
+      margin-left:10vh;
+      font-size: 2em;
+      color:#6c757d;
+
+      /* align-items: center; */
+      /* text-align: center; */
+  }
+.product-image{
+    display: flex;
+    width:25vh;
+    height: 25vh;
+    padding:2%;
+    margin-right: 1em;
+    box-shadow: 1.2px 0 0 0 solid grey;
+}  
+
+.products{
+    display:flex;
+    justify-content: center;
+}
+
+
+span{
+    color: black;
+}
+.main-heading{
+    padding:8% 0 8% 0;
+}
+
